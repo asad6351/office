@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from dleohr.dreamguystech.com/template-1/dleohr-vertical/details.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2023 17:43:50 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="assets/img/favicon.png" rel="icon" type="image/x-icon">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/lnr-icon.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<title>Profile Page</title><!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+	<div class="inner-wrapper">
+		<div id="loader-wrapper">
+			<div class="loader">
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+				<div class="dot"></div>
+			</div>
+		</div>
+		<header class="header">
+			<div class="top-header-section">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-lg-3 col-md-3 col-sm-3 col-6">
+							<div class="logo my-3 my-sm-0">
+								<a href="index.html"><img alt="logo image" class="img-fluid" src="assets/img/logo.png" width="100"></a>
+							</div>
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9 col-6 text-right">
+							<div class="user-block d-none d-lg-block">
+								<div class="row align-items-center">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<div class="user-notification-block align-right d-inline-block">
+											<div class="top-nav-search">
+												<form>
+													<input class="form-control" placeholder="Search here" type="text"> <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+												</form>
+											</div>
+										</div>
+										<div class="user-notification-block align-right d-inline-block">
+											<ul class="list-inline m-0">
+												<li class="list-inline-item" data-original-title="Apply Leave" data-placement="top" data-toggle="tooltip" title="">
+													<a class="font-23 menu-style text-white align-middle" href="leave.html"><span class="lnr lnr-briefcase position-relative"></span></a>
+												</li>
+											</ul>
+										</div>
+										<div class="user-info align-right dropdown d-inline-block header-dropdown">
+											<a class=" menu-style dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+											<div class="user-avatar d-inline-block"><img alt="user avatar" class="rounded-circle img-fluid" src="assets/img/profiles/img-6.jpg" width="55"></div></a>
+											<div class="dropdown-menu notification-dropdown-menu shadow-lg border-0 p-3 m-0 dropdown-menu-right">
+												<a class="dropdown-item p-2" href="employment.html"><span class="media align-items-center"><span class="lnr lnr-user mr-3"></span> <span class="media-body text-truncate"><span class="text-truncate">Profile</span></span></span></a> <a class="dropdown-item p-2" href="settings.html"><span class="media align-items-center"><span class="lnr lnr-cog mr-3"></span> <span class="media-body text-truncate"><span class="text-truncate">Settings</span></span></span></a> <a class="dropdown-item p-2" href="login.html"><span class="media align-items-center"><span class="lnr lnr-power-switch mr-3"></span> <span class="media-body text-truncate"><span class="text-truncate">Logout</span></span></span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="d-block d-lg-none">
+								<a href="javascript:void(0)"><span class="lnr lnr-user d-block display-5 text-white" id="open_navSidebar"></span></a>
+								<div class="offcanvas-menu" id="offcanvas_menu">
+									<span class="lnr lnr-cross float-left display-6 position-absolute t-1 l-1 text-white" id="close_navSidebar"></span>
+									<div class="user-info align-center bg-theme text-center">
+										<a class="d-block menu-style text-white" href="javascript:void(0)">
+										<div class="user-avatar d-inline-block mr-3"><img alt="user avatar" class="rounded-circle img-fluid" src="assets/img/profiles/img-6.jpg" width="55"></div></a>
+									</div>
+									<div class="user-notification-block align-center">
+										<div class="top-nav-search">
+											<form>
+												<input class="form-control" placeholder="Search here" type="text"> <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+											</form>
+										</div>
+									</div>
+									<hr>
+									<div class="user-menu-items px-3 m-0">
+										<a class="px-0 pb-2 pt-0" href="index.html"><span class="media align-items-center"><span class="lnr lnr-home mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Dashboard</span></span></span></a> <a class="p-2" href="employees.html"><span class="media align-items-center"><span class="lnr lnr-users mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Employees</span></span></span></a> <a class="p-2" href="company.html"><span class="media align-items-center"><span class="lnr lnr-apartment mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Company</span></span></span></a> <a class="p-2" href="calendar.html"><span class="media align-items-center"><span class="lnr lnr-calendar-full mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Calendar</span></span></span></a> <a class="p-2" href="leave.html"><span class="media align-items-center"><span class="lnr lnr-briefcase mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Leave</span></span></span></a> <a class="p-2" href="reviews.html"><span class="media align-items-center"><span class="lnr lnr-star mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Reviews</span></span></span></a> <a class="p-2" href="reports.html"><span class="media align-items-center"><span class="lnr lnr-rocket mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Reports</span></span></span></a> <a class="p-2" href="manage.html"><span class="media align-items-center"><span class="lnr lnr-sync mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Manage</span></span></span></a> <a class="p-2" href="settings.html"><span class="media align-items-center"><span class="lnr lnr-cog mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Settings</span></span></span></a> <a class="p-2" href="employment.html"><span class="media align-items-center"><span class="lnr lnr-user mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Profile</span></span></span></a> <a class="p-2" href="login.html"><span class="media align-items-center"><span class="lnr lnr-power-switch mr-3"></span> <span class="media-body text-truncate text-left"><span class="text-truncate text-left">Logout</span></span></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="page-wrapper">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-12 theiaStickySidebar">
+						<aside class="sidebar sidebar-user">
+							<div class="row">
+								<div class="col-12">
+									<div class="card ctm-border-radius shadow-sm grow">
+										<div class="card-body py-4">
+											<div class="row">
+												<div class="col-md-12 mr-auto text-left">
+													<div class="custom-search input-group">
+														<div class="custom-breadcrumb">
+															<ol class="breadcrumb no-bg-color d-inline-block p-0 m-0 mb-2">
+																<li class="breadcrumb-item d-inline-block">
+																	<a class="text-dark" href="index.html">Home</a>
+																</li>
+																<li class="breadcrumb-item d-inline-block active">Profile</li>
+															</ol>
+															<h4 class="text-dark">Profile</h4>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="user-card shadow-sm grow bg-white p-4 text-center ctm-border-radius card">
+								<div class="user-info">
+									<div class="user-avatar mb-4"><img alt="User Avatar" class="img-fluid rounded-circle" src="assets/img/profiles/img-6.jpg" width="100"></div>
+									<div class="user-details">
+										<h4><b>Welcome Maria</b></h4><span class="ctm-text-sm"><a class="__cf_email__" data-cfemail="cca1adbea5adafa3b8b8a3a28ca9b4ada1bca0a9e2afa3a1" href="https://dleohr.dreamguystech.com/cdn-cgi/l/email-protection">[email&#160;protected]</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar-wrapper d-lg-block d-md-none d-none">
+								<div class="card ctm-border-radius shadow-sm grow border-none">
+									<div class="card-body">
+										<div class="row no-gutters">
+											<div class="col-6 align-items-center text-center">
+												<a class="text-dark p-4 first-slider-btn ctm-border-right ctm-border-left ctm-border-top" href="index.html"><span class="lnr lnr-home pr-0 pb-lg-2 font-23"></span><span class="">Dashboard</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 second-slider-btn ctm-border-right ctm-border-top" href="employees.html"><span class="lnr lnr-users pr-0 pb-lg-2 font-23"></span><span class="">Employees</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 ctm-border-right ctm-border-left" href="company.html"><span class="lnr lnr-apartment pr-0 pb-lg-2 font-23"></span><span class="">Company</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 ctm-border-right" href="calendar.html"><span class="lnr lnr-calendar-full pr-0 pb-lg-2 font-23"></span><span class="">Calendar</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 ctm-border-right ctm-border-left" href="leave.html"><span class="lnr lnr-briefcase pr-0 pb-lg-2 font-23"></span><span class="">Leave</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 ctm-border-right" href="reviews.html"><span class="lnr lnr-star pr-0 pb-lg-2 font-23"></span><span class="">Reviews</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 ctm-border-right ctm-border-left" href="reports.html"><span class="lnr lnr-rocket pr-0 pb-lg-2 font-23"></span><span class="">Reports</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 ctm-border-right" href="manage.html"><span class="lnr lnr-sync pr-0 pb-lg-2 font-23"></span><span class="">Manage</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-dark p-4 last-slider-btn1 ctm-border-right ctm-border-left" href="settings.html"><span class="lnr lnr-cog pr-0 pb-lg-2 font-23"></span><span class="">Settings</span></a>
+											</div>
+											<div class="col-6 align-items-center shadow-none text-center">
+												<a class="text-white active p-4 last-slider-btn ctm-border-right" href="employment.html"><span class="lnr lnr-user pr-0 pb-lg-2 font-23"></span><span class="">Profile</span></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+					<div class="col-xl-9 col-lg-8 col-md-12">
+						<div class="quicklink-sidebar-menu ctm-border-radius shadow-sm grow bg-white p-4 mb-4 card">
+							<ul class="list-group list-group-horizontal-lg">
+								<li class="list-group-item text-center button-6">
+									<a class="text-dark" href="employment.html">Employement</a>
+								</li>
+								<li class="list-group-item text-center active button-5">
+									<a class="text-white" href="details.html">Detail</a>
+								</li>
+								<li class="list-group-item text-center button-6">
+									<a class="text-dark" href="documents.html">Document</a>
+								</li>
+								<li class="list-group-item text-center button-6">
+									<a class="text-dark" href="payroll.html">Payroll</a>
+								</li>
+								<li class="list-group-item text-center button-6">
+									<a class="text-dark" href="time-off.html">Timeoff</a>
+								</li>
+								<li class="list-group-item text-center button-6">
+									<a class="text-dark" href="profile-reviews.html">Reviews</a>
+								</li>
+								<li class="list-group-item text-center button-6">
+									<a class="text-dark" href="profile-settings.html">Settings</a>
+								</li>
+							</ul>
+						</div>
+						<div class="row">
+							<div class="col-xl-4 col-lg-6 col-md-6 d-flex">
+								<div class="card flex-fill ctm-border-radius shadow-sm grow">
+									<div class="card-header">
+										<h4 class="card-title mb-0">Basic Information</h4>
+									</div>
+									<div class="card-body text-center">
+										<p class="card-text mb-3"><span class="text-primary">Preferred Name :</span> <b>Maria</b></p>
+										<p class="card-text mb-3"><span class="text-primary">First Name :</span> Maria</p>
+										<p class="card-text mb-3"><span class="text-primary">Last Name :</span> Cotton</p>
+										<p class="card-text mb-3"><span class="text-primary">Nationality :</span> American</p>
+										<p class="card-text mb-3"><span class="text-primary">Date of Birth :</span> 05 May 1990</p>
+										<p class="card-text mb-3"><span class="text-primary">Gender :</span> Female</p>
+										<p class="card-text mb-3"><span class="text-primary">Blood Group :</span> A+</p><a class="btn btn-theme ctm-border-radius text-white btn-sm" data-target="#add_basicInformation" data-toggle="modal" href="javascript:void(0)"><i aria-hidden="true" class="fa fa-plus"></i></a> <a class="btn btn-theme ctm-border-radius text-white btn-sm" data-target="#edit_basicInformation" data-toggle="modal" href="javascript:void(0)"><i aria-hidden="true" class="fa fa-pencil"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-6 col-md-6 d-flex">
+								<div class="card flex-fill ctm-border-radius shadow-sm grow">
+									<div class="card-header">
+										<h4 class="card-title mb-0">Contact</h4>
+									</div>
+									<div class="card-body text-center">
+										<p class="card-text mb-3"><span class="text-primary">Phone Number :</span> 987654321</p>
+										<p class="card-text mb-3"><span class="text-primary">Personal Email :</span> <a class="__cf_email__" data-cfemail="fa979b88939b99958e8e9594ba9f829b978a969fd4999597" href="https://dleohr.dreamguystech.com/cdn-cgi/l/email-protection">[email&#160;protected]</a></p>
+										<p class="card-text mb-3"><span class="text-primary">Secondary Number :</span> 986754231</p>
+										<p class="card-text mb-3"><span class="text-primary">Web Site :</span> www.focustechnology.com</p>
+										<p class="card-text mb-3"><span class="text-primary">Linkedin :</span> #mariacotton</p><a class="btn btn-theme ctm-border-radius text-white btn-sm" data-target="#add_Contact" data-toggle="modal" href="javascript:void(0)"><i aria-hidden="true" class="fa fa-plus"></i></a> <a class="btn btn-theme ctm-border-radius text-white btn-sm" data-target="#edit_Contact" data-toggle="modal" href="javascript:void(0)"><i aria-hidden="true" class="fa fa-pencil"></i></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-12 col-md-12">
+								<div class="row">
+									<div class="col-xl-12 col-lg-6 col-md-6 d-flex">
+										<div class="card ctm-border-radius shadow-sm grow flex-fill">
+											<div class="card-header">
+												<h4 class="card-title mb-0">Dates</h4>
+											</div>
+											<div class="card-body text-center">
+												<p class="card-text mb-3"><span class="text-primary">Start Date :</span> 06 Jun 2017</p>
+												<p class="card-text mb-3"><span class="text-primary">Visa Expiry Date :</span> 06 Jun 2020</p><a class="btn btn-theme ctm-border-radius text-white btn-sm" data-target="#edit_Dates" data-toggle="modal" href="javascript:void(0)"><i aria-hidden="true" class="fa fa-pencil"></i></a>
+											</div>
+										</div>
+									</div>
+									<div class="col-xl-12 col-lg-6 col-md-6 d-flex">
+										<div class="card ctm-border-radius shadow-sm grow flex-fill">
+											<div class="card-header">
+												<h4 class="card-title d-inline-block mb-0">Dates</h4><span class="float-right"><a class="text-primary" data-target="#addNewType" data-toggle="modal" href="javascript:void(0)">New Type</a></span>
+											</div>
+											<div class="card-body">
+												<div class="input-group mb-3">
+													<input class="form-control datetimepicker date-enter" placeholder="Add Start Date" type="text">
+													<div class="input-group-append">
+														<button class="btn btn-theme text-white" type="button"><i aria-hidden="true" class="fa fa-calendar"></i></button>
+													</div>
+												</div>
+												<div class="input-group mb-3">
+													<input class="form-control datetimepicker date-enter" placeholder="Add Visa Expiry Date" type="text">
+													<div class="input-group-append">
+														<button class="btn btn-theme text-white" type="button"><i aria-hidden="true" class="fa fa-calendar"></i></button>
+													</div>
+												</div>
+												<div class="text-center">
+													<a class="btn btn-theme ctm-border-radius text-white button-1" href="javascript:void(0)">Add A Key Date</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sidebar-overlay" id="sidebar_overlay"></div>
+	<div class="modal fade" id="addNewType">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Create New Date Type</h4>
+					<div class="form-group">
+						<div class="input-group mb-3">
+							<input class="form-control date-enter" placeholder="Date Type" type="text">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group mb-3">
+							<input class="form-control datetimepicker date-enter" placeholder="Key Date" type="text">
+						</div>
+					</div><button class="btn btn-danger ctm-border-radius float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn text-white ctm-border-radius btn-theme float-right" type="button">Add</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="add_basicInformation">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Basic Information</h4>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Preferred Name" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="First Name" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Last Name" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Nationality" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control datetimepicker date-enter" placeholder="Add Date of Birth" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Gender" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Blood Group" type="text">
+					</div><button class="btn btn-danger text-white ctm-border-radius float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-theme text-white ctm-border-radius float-right button-1" type="button">Add</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="edit_basicInformation">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Edit Basic Information</h4>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Preferred Name" type="text" value="Maria">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="First Name" type="text" value="Maria">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Last Name" type="text" value="Cotton">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Nationality" type="text" value="American">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control datetimepicker date-enter" placeholder="Add Date of Birth" type="text" value="05-07-1990">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Gender" type="text" value="Female">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Blood Group" type="text" value="A+">
+					</div><button class="btn btn-danger float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-theme text-white ctm-border-radius float-right button-1" type="button">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="edit_Contact">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Edit Contact</h4>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Phone Number" type="text" value="987654321">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Login Email" type="email" value="mariacotton@example.com">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Personal Email" type="email" value="maria@example.com">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Seconary Phone Number" type="text" value="986754231">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Web Site" type="text" value="www.focustechnology.com">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Connect Your Linkedin" type="text" value="#mariacotton">
+					</div><button class="btn btn-danger text-white ctm-border-radius float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-theme text-white ctm-border-radius float-right button-1" type="button">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="add_Contact">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Add Contact</h4>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Phone Number" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Login Email" type="email">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Personal Email" type="email">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Seconary Phone Number" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Add Web Site" type="text">
+					</div>
+					<div class="input-group mb-3">
+						<input class="form-control" placeholder="Connect Your Linkedin" type="text">
+					</div><button class="btn btn-danger text-white ctm-border-radius float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-theme text-white ctm-border-radius float-right button-1" type="button">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="addKeyDate">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Add New Date</h4>
+					<div class="form-group">
+						<div class="input-group mb-1">
+							<input class="form-control datetimepicker date-enter" placeholder="Date Type" type="text">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group mb-3">
+							<input class="form-control datetimepicker date-enter" placeholder="Key Date" type="text">
+						</div>
+					</div><button class="btn btn-danger text-white ctm-border-radius float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-theme text-white ctm-border-radius float-right button-1" type="button">Add</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="edit_Dates">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button class="close" data-dismiss="modal" type="button">&times;</button>
+					<h4 class="modal-title mb-3">Edit Date</h4>
+					<div class="form-group">
+						<div class="input-group mb-1">
+							<input class="form-control datetimepicker date-enter" placeholder="Start Date" type="text" value="06-07-2017">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="input-group mb-3">
+							<input class="form-control datetimepicker date-enter" placeholder="Visa Expiry Date" type="text" value="06 -07-2020">
+						</div>
+					</div><button class="btn btn-danger text-white ctm-border-radius float-right ml-3" data-dismiss="modal" type="button">Cancel</button> <button class="btn btn-theme text-white ctm-border-radius float-right button-1" type="button">Add</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+	</script>
+	<script src="assets/js/jquery-3.2.1.min.js">
+	</script> 
+	<script src="assets/js/popper.min.js">
+	</script> 
+	<script src="assets/js/bootstrap.min.js">
+	</script> 
+	<script src="assets/plugins/select2/moment.min.js">
+	</script> 
+	<script src="assets/js/bootstrap-datetimepicker.min.js">
+	</script> 
+	<script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js">
+	</script> 
+	<script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js">
+	</script> 
+	<script src="assets/js/script.js">
+	</script><!-- Mirrored from dleohr.dreamguystech.com/template-1/dleohr-vertical/details.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 May 2023 17:43:50 GMT -->
+</body>
+</html>
